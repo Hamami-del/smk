@@ -2335,8 +2335,9 @@ export const data = {
       options: ["Kerja bagus!", "Selamat datang!", "Jangan menyerah!"],
       a: "Kerja bagus!" // jawaban: A
     }
-  ]
+  ],
 };
+
 
 
 
