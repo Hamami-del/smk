@@ -8,7 +8,448 @@ export const data = {
   // =======================
   // PELAJARAN: AGAMA
   // =======================
-  agama: [
+  agama:    [
+    {
+      "q": "Sumber hukum Islam kedua setelah Al-Qur'an yang berisi perkataan, perbuatan, dan ketetapan Nabi Muhammad SAW adalah...",
+      "options": [
+        "Sunnah/Hadis",
+        "Ijma'",
+        "Qiyas"
+      ],
+      "a": "Sunnah/Hadis"
+    },
+    {
+      "q": "Kata 'al-Mu’min' (salah satu Asmaul Husna) memiliki arti bahwa Allah SWT adalah...",
+      "options": [
+        "Maha Mulia",
+        "Maha Pemberi Keamanan",
+        "Maha Adil"
+      ],
+      "a": "Maha Pemberi Keamanan"
+    },
+    {
+      "q": "Di antara Asmaul Husna, kata 'al-Karim' menunjukkan sifat Allah yang...",
+      "options": [
+        "Maha Mengumpulkan",
+        "Maha Perkasa",
+        "Maha Mulia/Dermawan"
+      ],
+      "a": "Maha Mulia/Dermawan"
+    },
+    {
+      "q": "Pilar keimanan (Rukun Iman) yang ke-2 adalah iman kepada...",
+      "options": [
+        "Hari Kiamat",
+        "Malaikat-malaikat Allah",
+        "Kitab-kitab Allah"
+      ],
+      "a": "Malaikat-malaikat Allah"
+    },
+    {
+      "q": "Malaikat yang bertugas menyampaikan wahyu kepada para nabi dan rasul adalah...",
+      "options": [
+        "Malaikat Mikail",
+        "Malaikat Jibril",
+        "Malaikat Izrail"
+      ],
+      "a": "Malaikat Jibril"
+    },
+    {
+      "q": "Pengamalan ajaran Islam yang berhubungan dengan tata cara beribadah kepada Allah SWT disebut aspek...",
+      "options": [
+        "Akidah",
+        "Fikih (Ibadah)",
+        "Akhlak"
+      ],
+      "a": "Fikih (Ibadah)"
+    },
+    {
+      "q": "Perilaku terpuji yang harus dimiliki seorang muslim dalam pergaulan, seperti berprasangka baik, disebut...",
+      "options": [
+        "Husnuzan",
+        "Suuzan",
+        "Riya'"
+      ],
+      "a": "Husnuzan"
+    },
+    {
+      "q": "Perilaku berburuk sangka atau mencurigai orang lain tanpa alasan yang kuat disebut...",
+      "options": [
+        "Tawadhu'",
+        "Suuzan",
+        "Syaja'ah"
+      ],
+      "a": "Suuzan"
+    },
+    {
+      "q": "Salah satu larangan dalam Islam yang harus dijauhi oleh remaja untuk menjaga kehormatan diri adalah...",
+      "options": [
+        "Tawakkal",
+        "Pergaulan Bebas",
+        "Ijtihad"
+      ],
+      "a": "Pergaulan Bebas"
+    },
+    {
+      "q": "Pakaian bagi perempuan muslim yang berfungsi menutupi seluruh tubuh kecuali muka dan telapak tangan disebut...",
+      "options": [
+        "Jilbab",
+        "Pakaian Adat",
+        "Pakaian Formal"
+      ],
+      "a": "Jilbab"
+    },
+    {
+      "q": "Makna dari 'Fastabiqul Khairat' (seperti dalam Q.S. Al-Maidah ayat 48) adalah...",
+      "options": [
+        "Menghindari perpecahan",
+        "Berlomba-lomba dalam kebaikan",
+        "Menuntut ilmu setinggi-tingginya"
+      ],
+      "a": "Berlomba-lomba dalam kebaikan"
+    },
+    {
+      "q": "Cara Allah SWT membalas amalan hambanya, baik amalan sedikit maupun banyak (seperti dalam Q.S. At-Taubah ayat 105), menunjukkan pentingnya...",
+      "options": [
+        "Etos Kerja",
+        "Ghibah",
+        "Toleransi"
+      ],
+      "a": "Etos Kerja"
+    },
+    {
+      "q": "Hukum Islam yang mengatur tentang tata cara peribadatan langsung kepada Allah SWT, seperti salat dan puasa, disebut...",
+      "options": [
+        "Muamalah",
+        "Ibadah Mahdhah",
+        "Jinayah"
+      ],
+      "a": "Ibadah Mahdhah"
+    },
+    {
+      "q": "Zakat yang wajib dikeluarkan oleh setiap individu muslim menjelang hari raya Idul Fitri adalah Zakat...",
+      "options": [
+        "Mal (Harta)",
+        "Fitrah (Jiwa)",
+        "Tijarah (Perdagangan)"
+      ],
+      "a": "Fitrah (Jiwa)"
+    },
+    {
+      "q": "Ibadah yang wajib dilaksanakan bagi yang mampu, dengan mendatangi Baitullah (Ka'bah) di Mekah pada waktu tertentu, adalah...",
+      "options": [
+        "Umrah",
+        "Haji",
+        "Zakat"
+      ],
+      "a": "Haji"
+    },
+    {
+      "q": "Harta benda yang diserahkan untuk kepentingan umum umat Islam dan tidak boleh dijual atau diwariskan disebut...",
+      "options": [
+        "Hibah",
+        "Wasiat",
+        "Wakaf"
+      ],
+      "a": "Wakaf"
+    },
+    {
+      "q": "Unsur utama dalam Hadis yang merupakan perkataan atau isi dari Hadis itu sendiri adalah...",
+      "options": [
+        "Sanad",
+        "Matan",
+        "Rawi"
+      ],
+      "a": "Matan"
+    },
+    {
+      "q": "Rangkaian atau jalur para perawi (orang-orang yang meriwayatkan) hadis disebut...",
+      "options": [
+        "Matan",
+        "Sanad",
+        "Isnad"
+      ],
+      "a": "Sanad"
+    },
+    {
+      "q": "Segala keputusan hukum Islam yang disepakati oleh para ulama mujtahid setelah wafatnya Rasulullah SAW disebut...",
+      "options": [
+        "Qiyas",
+        "Ijma'",
+        "Istihsan"
+      ],
+      "a": "Ijma'"
+    },
+    {
+      "q": "Allah SWT Maha Akhir, tidak ada sesuatu setelah-Nya, mencerminkan sifat Allah, yaitu...",
+      "options": [
+        "Al-Akhir",
+        "Al-Wakil",
+        "Al-Jami'"
+      ],
+      "a": "Al-Akhir"
+    },
+    {
+      "q": "Iman kepada Malaikat merupakan keyakinan bahwa mereka diciptakan dari...",
+      "options": [
+        "Tanah",
+        "Api",
+        "Cahaya (Nur)"
+      ],
+      "a": "Cahaya (Nur)"
+    },
+    {
+      "q": "Malaikat yang bertugas mencabut nyawa semua makhluk hidup adalah...",
+      "options": [
+        "Malaikat Isrofil",
+        "Malaikat Malik",
+        "Malaikat Izrail"
+      ],
+      "a": "Malaikat Izrail"
+    },
+    {
+      "q": "Etika atau akhlak dalam Islam yang harus diterapkan dalam berbusana adalah...",
+      "options": [
+        "Pakaian harus mewah dan mahal.",
+        "Pakaian harus menutup aurat dan tidak transparan.",
+        "Pakaian harus mengikuti mode terbaru."
+      ],
+      "a": "Pakaian harus menutup aurat dan tidak transparan."
+    },
+    {
+      "q": "Konsep Islam yang menuntut kita untuk menerima dan menghargai perbedaan, serta tidak memaksakan kehendak kepada orang lain, adalah...",
+      "options": [
+        "Egoisme",
+        "Toleransi (Tasâmuh)",
+        "Fanatisme"
+      ],
+      "a": "Toleransi (Tasâmuh)"
+    },
+    {
+      "q": "Tingkatan dalam berakhlak mulia di mana seseorang melakukan ibadah hanya karena ingin mencari keridhaan Allah SWT, bukan karena ingin dilihat manusia, disebut...",
+      "options": [
+        "Riya'",
+        "Ikhlas",
+        "Takabbur"
+      ],
+      "a": "Ikhlas"
+    },
+    {
+      "q": "Sifat wajib bagi rasul yang berarti 'dapat dipercaya' adalah...",
+      "options": [
+        "Fathanah",
+        "Shiddiq",
+        "Amanah"
+      ],
+      "a": "Amanah"
+    },
+    {
+      "q": "Kitab suci yang diturunkan kepada Nabi Musa AS adalah...",
+      "options": [
+        "Zabur",
+        "Taurat",
+        "Injil"
+      ],
+      "a": "Taurat"
+    },
+    {
+      "q": "Salah satu hikmah dari ibadah Haji adalah...",
+      "options": [
+        "Menghabiskan harta kekayaan.",
+        "Menumbuhkan semangat persatuan umat Islam sedunia.",
+        "Mencari popularitas."
+      ],
+      "a": "Menumbuhkan semangat persatuan umat Islam sedunia."
+    },
+    {
+      "q": "Ibadah yang memiliki dimensi sosial yang kuat karena manfaatnya dirasakan langsung oleh fakir miskin adalah...",
+      "options": [
+        "Salat",
+        "Puasa",
+        "Zakat"
+      ],
+      "a": "Zakat"
+    },
+    {
+      "q": "Kewajiban pertama seorang muslim terhadap jenazah muslim lainnya adalah...",
+      "options": [
+        "Mengkafani",
+        "Memandikan",
+        "Menguburkan"
+      ],
+      "a": "Memandikan"
+    },
+    {
+      "q": "Sifat yang menunjukkan bahwa Allah Maha Mandiri dan tidak membutuhkan bantuan dari siapapun adalah...",
+      "options": [
+        "Al-Jami'",
+        "Al-Ghaniyyu",
+        "Al-Warasu"
+      ],
+      "a": "Al-Ghaniyyu"
+    },
+    {
+      "q": "Yang merupakan salah satu ciri utama pergaulan bebas adalah...",
+      "options": [
+        "Menghabiskan waktu untuk menuntut ilmu.",
+        "Melanggar norma agama dan sosial.",
+        "Memiliki banyak teman yang shalih."
+      ],
+      "a": "Melanggar norma agama dan sosial."
+    },
+    {
+      "q": "Langkah-langkah yang dilakukan untuk menentukan hukum Islam jika tidak ditemukan dalam Al-Qur'an dan Hadis dengan menyamakan kasus baru dengan kasus lama yang sudah ada hukumnya disebut...",
+      "options": [
+        "Istihsan",
+        "Ijtihad",
+        "Qiyas"
+      ],
+      "a": "Qiyas"
+    },
+    {
+      "q": "Pesan utama dari QS. Al-Hujurat ayat 10 tentang hubungan antar sesama muslim adalah...",
+      "options": [
+        "Melarang riba.",
+        "Menganjurkan persaudaraan (ukhuwah).",
+        "Perintah berpuasa."
+      ],
+      "a": "Menganjurkan persaudaraan (ukhuwah)."
+    },
+    {
+      "q": "Sifat terpuji yang berarti 'rendah hati' dan tidak menyombongkan diri adalah...",
+      "options": [
+        "Tawadhu'",
+        "Takabbur",
+        "Ghadhab"
+      ],
+      "a": "Tawadhu'"
+    },
+    {
+      "q": "Sikap marah atau temperamental (ghadhab) termasuk akhlak...",
+      "options": [
+        "Mahmudah (Terpuji)",
+        "Madzmumah (Tercela)",
+        "Mubah (Boleh)"
+      ],
+      "a": "Madzmumah (Tercela)"
+    },
+    {
+      "q": "Malaikat yang bertugas mencatat amal baik manusia adalah...",
+      "options": [
+        "Malaikat Atid",
+        "Malaikat Raqib",
+        "Malaikat Munkar"
+      ],
+      "a": "Malaikat Raqib"
+    },
+    {
+      "q": "Sifat *Fathanah* pada Rasulullah SAW berarti...",
+      "options": [
+        "Jujur",
+        "Cerdas/Bijaksana",
+        "Menyampaikan"
+      ],
+      "a": "Cerdas/Bijaksana"
+    },
+    {
+      "q": "Nama-nama yang baik dan indah yang hanya dimiliki oleh Allah SWT disebut...",
+      "options": [
+        "Sifatul Khobitsah",
+        "Asmaul Husna",
+        "Sifatul Ma'ani"
+      ],
+      "a": "Asmaul Husna"
+    },
+    {
+      "q": "Jumlah ayat yang ada di dalam Al-Qur'an adalah sekitar...",
+      "options": [
+        "6.236 ayat",
+        "6.666 ayat",
+        "7.000 ayat"
+      ],
+      "a": "6.236 ayat"
+    },
+    {
+      "q": "Di antara berikut, manakah yang merupakan salah satu **Rukun Islam**?",
+      "options": [
+        "Iman kepada Qada dan Qadar",
+        "Membaca Al-Qur'an",
+        "Menunaikan Zakat"
+      ],
+      "a": "Menunaikan Zakat"
+    },
+    {
+      "q": "Orang yang berhak menerima zakat (mustahik) disebut dengan...",
+      "options": [
+        "Muzakki",
+        "Amil",
+        "Fakir/Miskin"
+      ],
+      "a": "Fakir/Miskin"
+    },
+    {
+      "q": "Salah satu adab dalam berpakaian sesuai syariat Islam adalah...",
+      "options": [
+        "Mendahulukan pakaian kanan saat melepas.",
+        "Mendahulukan pakaian kanan saat memakai.",
+        "Menggunakan pakaian yang ketat."
+      ],
+      "a": "Mendahulukan pakaian kanan saat memakai."
+    },
+    {
+      "q": "Sikap *kontrol diri* (mujahadah an-nafs) dalam Islam bertujuan untuk...",
+      "options": [
+        "Mengikuti hawa nafsu.",
+        "Menjaga diri dari perbuatan dosa.",
+        "Mencari kekayaan duniawi."
+      ],
+      "a": "Menjaga diri dari perbuatan dosa."
+    },
+    {
+      "q": "Teks dalam hadis yang merupakan perkataan langsung Nabi Muhammad SAW disebut hadis...",
+      "options": [
+        "Fi'liyah",
+        "Qauliyah",
+        "Taqririyah"
+      ],
+      "a": "Qauliyah"
+    },
+    {
+      "q": "Hukum *wajib* dalam fikih berarti...",
+      "options": [
+        "Dianjurkan untuk dilakukan.",
+        "Jika dilakukan mendapat pahala, jika ditinggalkan berdosa.",
+        "Jika dilakukan berdosa, jika ditinggalkan mendapat pahala."
+      ],
+      "a": "Jika dilakukan mendapat pahala, jika ditinggalkan berdosa."
+    },
+    {
+      "q": "Peristiwa besar hijrah Nabi Muhammad SAW dari Mekah ke Madinah terjadi pada tahun...",
+      "options": [
+        "571 Masehi",
+        "622 Masehi",
+        "632 Masehi"
+      ],
+      "a": "622 Masehi"
+    },
+    {
+      "q": "Sikap keberanian dalam membela kebenaran dan menegakkan keadilan disebut...",
+      "options": [
+        "Ghadhab",
+        "Syaja'ah",
+        "Hasad"
+      ],
+      "a": "Syaja'ah"
+    },
+    {
+      "q": "Hukum mempelajari ilmu tauhid (Akidah) bagi setiap muslim adalah...",
+      "options": [
+        "Sunnah Muakkad",
+        "Fardhu Kifayah",
+        "Fardhu 'Ain"
+      ],
+      "a": "Fardhu 'Ain"
+    },
     {
       q: "Rukun Islam yang pertama itu bukan shalat ya, tapi syahadat. Nah, rukun Islam pertama adalah ...",
       options: ["Shalat", "Syahadat", "Zakat"],
@@ -1896,6 +2337,7 @@ export const data = {
     }
   ]
 };
+
 
 
 
