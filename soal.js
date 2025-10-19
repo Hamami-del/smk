@@ -2331,7 +2331,8 @@ export const data = {
       a: "Bersihkan papan tulis" // jawaban: A
     }
         ],
-          };
+          }
+
 
 
 
