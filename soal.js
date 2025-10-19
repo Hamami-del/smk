@@ -1562,11 +1562,11 @@ export const data = {
     {
       "q": "Untuk menambahkan baris baru dalam sel Microsoft Excel, kombinasi tombol yang digunakan adalah...",
       "options": [
-        "Enter",
+        "Alt + Enter",
         "Ctrl + Enter",
         "Alt + Enter"
       ],
-      "a": "Alt + Enter"
+        a: "Alt + Enter"// jawaban: A
      },
     {
       q: "CPU itu bukan nama band ya 😄. CPU singkatan dari ...",
@@ -2337,6 +2337,7 @@ export const data = {
     }
   ]
 };
+
 
 
 
