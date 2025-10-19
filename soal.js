@@ -114,7 +114,448 @@ export const data = {
   // =======================
   // PELAJARAN: BAHASA INDONESIA
   // =======================
-  indonesia: [
+  indonesia:    [
+    {
+      "q": "Kalimat yang mengandung subjek, predikat, objek, dan keterangan secara lengkap disebut...",
+      "options": [
+        "Kalimat Tunggal",
+        "Kalimat Majemuk",
+        "Kalimat Efektif"
+      ],
+      "a": "Kalimat Efektif"
+    },
+    {
+      "q": "Kata yang menyatakan hubungan pertentangan antara dua hal atau lebih disebut...",
+      "options": [
+        "Konjungsi Penjumlahan",
+        "Konjungsi Pertentangan",
+        "Konjungsi Pilihan"
+      ],
+      "a": "Konjungsi Pertentangan"
+    },
+    {
+      "q": "Inti dari Teks Laporan Hasil Observasi adalah...",
+      "options": [
+        "Pendapat pribadi penulis",
+        "Deskripsi dan klarifikasi objek berdasarkan fakta",
+        "Ajakan untuk melakukan sesuatu"
+      ],
+      "a": "Deskripsi dan klarifikasi objek berdasarkan fakta"
+    },
+    {
+      "q": "Bagian Teks Laporan Hasil Observasi yang berisi penjelasan detail mengenai objek yang dilaporkan adalah...",
+      "options": [
+        "Pernyataan Umum (Definisi)",
+        "Deskripsi Bagian",
+        "Simpulan"
+      ],
+      "a": "Deskripsi Bagian"
+    },
+    {
+      "q": "Tujuan utama Teks Eksposisi adalah...",
+      "options": [
+        "Menghibur pembaca dengan cerita lucu",
+        "Mempengaruhi pembaca dengan ajakan",
+        "Menjelaskan atau memaparkan informasi"
+      ],
+      "a": "Menjelaskan atau memaparkan informasi"
+    },
+    {
+      "q": "Struktur utama Teks Eksposisi adalah Tesis, Argumentasi, dan...",
+      "options": [
+        "Koda",
+        "Penegasan Ulang",
+        "Abstraksi"
+      ],
+      "a": "Penegasan Ulang"
+    },
+    {
+      "q": "Ciri kebahasaan utama Teks Eksposisi yang menunjukkan pendapat penulis didukung data adalah penggunaan...",
+      "options": [
+        "Kalimat Perintah",
+        "Kata Teknis (Istilah)",
+        "Majas Metafora"
+      ],
+      "a": "Kata Teknis (Istilah)"
+    },
+    {
+      "q": "Teks yang berisi cerita singkat yang lucu dan mengesankan, yang biasanya mengandung kritik sosial atau sindiran, adalah...",
+      "options": [
+        "Teks Eksposisi",
+        "Teks Anekdot",
+        "Teks Negosiasi"
+      ],
+      "a": "Teks Anekdot"
+    },
+    {
+      "q": "Bagian awal Teks Anekdot yang menyatakan latar belakang atau orientasi adalah...",
+      "options": [
+        "Abstraksi",
+        "Reaksi",
+        "Krisis"
+      ],
+      "a": "Abstraksi"
+    },
+    {
+      "q": "Bagian inti Teks Anekdot yang berisi puncak masalah yang mengundang tawa sekaligus kritik adalah...",
+      "options": [
+        "Krisis",
+        "Reaksi",
+        "Koda"
+      ],
+      "a": "Krisis"
+    },
+    {
+      "q": "Kata 'sejak', 'ketika', dan 'sebelum' termasuk konjungsi...",
+      "options": [
+        "Temporal (Waktu)",
+        "Kausalitas (Sebab-Akibat)",
+        "Aditif (Penjumlahan)"
+      ],
+      "a": "Temporal (Waktu)"
+    },
+    {
+      "q": "Penggunaan kata 'sistem' dan 'digital' dalam sebuah teks termasuk jenis kata...",
+      "options": [
+        "Kata Sifat",
+        "Kata Kerja",
+        "Kata Teknis"
+      ],
+      "a": "Kata Teknis"
+    },
+    {
+      "q": "Kalimat baku dari 'Meskipun mahal, tetapi barang ini sangat berkualitas' adalah...",
+      "options": [
+        "Meskipun mahal, barang ini sangat berkualitas.",
+        "Barang ini mahal, tetapi sangat berkualitas.",
+        "Meskipun mahal, tetapi barang ini sangat berkualitas."
+      ],
+      "a": "Meskipun mahal, barang ini sangat berkualitas."
+    },
+    {
+      "q": "Kalimat yang subjeknya dikenai pekerjaan (Predikatnya berawalan *di-*) disebut...",
+      "options": [
+        "Kalimat Aktif",
+        "Kalimat Pasif",
+        "Kalimat Langsung"
+      ],
+      "a": "Kalimat Pasif"
+    },
+    {
+      "q": "Prinsip utama yang harus dipatuhi dalam Teks Laporan Hasil Observasi adalah...",
+      "options": [
+        "Subjektivitas",
+        "Opini",
+        "Objektivitas"
+      ],
+      "a": "Objektivitas"
+    },
+    {
+      "q": "Dalam Teks Laporan Hasil Observasi, penggunaan kata benda (*nomina*) lebih dominan daripada...",
+      "options": [
+        "Kata Sifat (*Adjektiva*)",
+        "Kata Kerja (*Verba*)",
+        "Kata Ganti (*Pronomina*)"
+      ],
+      "a": "Kata Kerja (*Verba*)"
+    },
+    {
+      "q": "Penghubung antarkalimat yang menyatakan hubungan sebab-akibat adalah...",
+      "options": [
+        "Oleh karena itu",
+        "Namun",
+        "Meskipun demikian"
+      ],
+      "a": "Oleh karena itu"
+    },
+    {
+      "q": "Istilah yang berarti pandangan atau pendapat penulis terhadap suatu topik yang bersifat subjektif adalah...",
+      "options": [
+        "Fakta",
+        "Opini",
+        "Definisi"
+      ],
+      "a": "Opini"
+    },
+    {
+      "q": "Kalimat yang berfungsi untuk membujuk, memengaruhi, atau mengajak pembaca disebut...",
+      "options": [
+        "Kalimat Deklaratif",
+        "Kalimat Persuasif",
+        "Kalimat Interogatif"
+      ],
+      "a": "Kalimat Persuasif"
+    },
+    {
+      "q": "Teks Eksposisi menggunakan **pronomina non-persona** yang mengacu pada...",
+      "options": [
+        "Manusia",
+        "Benda atau Konsep",
+        "Tempat"
+      ],
+      "a": "Benda atau Konsep"
+    },
+    {
+      "q": "Teks Anekdot memiliki fungsi utama sebagai sarana...",
+      "options": [
+        "Pendidikan moral secara langsung",
+        "Kritik sosial dengan humor",
+        "Laporan ilmiah"
+      ],
+      "a": "Kritik sosial dengan humor"
+    },
+    {
+      "q": "Bagian Koda dalam Teks Anekdot berfungsi sebagai...",
+      "options": [
+        "Puncak masalah",
+        "Penutup atau simpulan",
+        "Latar belakang cerita"
+      ],
+      "a": "Penutup atau simpulan"
+    },
+    {
+      "q": "Dalam kalimat 'Mahasiswa itu disuruh Rektor membersihkan ruang kelas', frasa 'disuruh Rektor' adalah...",
+      "options": [
+        "Subjek",
+        "Predikat",
+        "Objek"
+      ],
+      "a": "Predikat"
+    },
+    {
+      "q": "Penulisan kata depan yang benar dalam kalimat berikut adalah...",
+      "options": [
+        "Dimana dia tinggal?",
+        "Di mana dia tinggal?",
+        "Di-mana dia tinggal?"
+      ],
+      "a": "Di mana dia tinggal?"
+    },
+    {
+      "q": "Contoh konjungsi aditif (penjumlahan) adalah...",
+      "options": [
+        "Walaupun",
+        "Serta",
+        "Karena"
+      ],
+      "a": "Serta"
+    },
+    {
+      "q": "Teks Laporan Hasil Observasi harus memuat informasi yang bersifat...",
+      "options": [
+        "Imajinatif",
+        "Global atau Umum",
+        "Khusus atau Detail"
+      ],
+      "a": "Global atau Umum"
+    },
+    {
+      "q": "Paragraf yang ide pokoknya berada di akhir kalimat disebut paragraf...",
+      "options": [
+        "Deduktif",
+        "Induktif",
+        "Campuran"
+      ],
+      "a": "Induktif"
+    },
+    {
+      "q": "Konjungsi yang menghubungkan dua klausa yang setara dalam sebuah kalimat majemuk setara adalah...",
+      "options": [
+        "Konjungsi Subordinatif",
+        "Konjungsi Koordinatif",
+        "Konjungsi Antarkalimat"
+      ],
+      "a": "Konjungsi Koordinatif"
+    },
+    {
+      "q": "Kalimat 'Pohon itu tumbuh subur' mengandung pola...",
+      "options": [
+        "S-P-O",
+        "S-P",
+        "S-P-Pel"
+      ],
+      "a": "S-P"
+    },
+    {
+      "q": "Inti dari tesis dalam Teks Eksposisi adalah...",
+      "options": [
+        "Kesimpulan akhir",
+        "Pernyataan pendapat yang didukung argumen",
+        "Penolakan terhadap suatu isu"
+      ],
+      "a": "Pernyataan pendapat yang didukung argumen"
+    },
+    {
+      "q": "Tujuan Teks Eksposisi dalam konteks persuasif seringkali bertujuan untuk...",
+      "options": [
+        "Mengajak pembaca setuju",
+        "Melaporkan hasil penelitian",
+        "Mendeskripsikan tempat"
+      ],
+      "a": "Mengajak pembaca setuju"
+    },
+    {
+      "q": "Ciri khas Teks Anekdot yang membedakannya dengan humor biasa adalah...",
+      "options": [
+        "Alur yang panjang",
+        "Adanya pesan kritik atau sindiran",
+        "Tidak ada tokoh manusia"
+      ],
+      "a": "Adanya pesan kritik atau sindiran"
+    },
+    {
+      "q": "Kata-kata yang digunakan untuk menghubungkan gagasan dalam suatu paragraf disebut...",
+      "options": [
+        "Pronomina",
+        "Konjungsi",
+        "Adverbia"
+      ],
+      "a": "Konjungsi"
+    },
+    {
+      "q": "Penulisan singkatan nama orang yang benar adalah...",
+      "options": [
+        "Bapak S. Hartono",
+        "Bp. S. Hartono",
+        "Bpk. S. Hartono"
+      ],
+      "a": "Bapak S. Hartono"
+    },
+    {
+      "q": "Istilah yang digunakan untuk mengganti kata benda yang sudah disebutkan sebelumnya adalah...",
+      "options": [
+        "Verba",
+        "Pronomina",
+        "Adjektiva"
+      ],
+      "a": "Pronomina"
+    },
+    {
+      "q": "Teks Laporan Hasil Observasi tidak boleh mengandung...",
+      "options": [
+        "Fakta",
+        "Definisi",
+        "Asumsi"
+      ],
+      "a": "Asumsi"
+    },
+    {
+      "q": "Bagian 'Deskripsi Manfaat' dalam Laporan Hasil Observasi terletak pada...",
+      "options": [
+        "Pernyataan Umum",
+        "Deskripsi Bagian",
+        "Deskripsi Manfaat/Simpulan"
+      ],
+      "a": "Deskripsi Manfaat/Simpulan"
+    },
+    {
+      "q": "Penggunaan bahasa yang lugas, tidak berbelit-belit, dan langsung pada sasaran adalah ciri...",
+      "options": [
+        "Teks Narasi",
+        "Teks Argumentasi",
+        "Teks Eksposisi"
+      ],
+      "a": "Teks Eksposisi"
+    },
+    {
+      "q": "Kata-kata seperti 'pertama', 'kedua', 'selanjutnya' sering digunakan dalam Teks Eksposisi untuk menunjukkan...",
+      "options": [
+        "Kontradiksi",
+        "Struktur atau Urutan",
+        "Penyebaban"
+      ],
+      "a": "Struktur atau Urutan"
+    },
+    {
+      "q": "Dalam Teks Anekdot, bagian yang menceritakan penyelesaian masalah yang menimbulkan kelucuan disebut...",
+      "options": [
+        "Krisis",
+        "Reaksi",
+        "Koda"
+      ],
+      "a": "Reaksi"
+    },
+    {
+      "q": "Teks Anekdot menggunakan kalimat langsung untuk...",
+      "options": [
+        "Menjelaskan latar",
+        "Menyampaikan dialog antar tokoh",
+        "Menyimpulkan isi cerita"
+      ],
+      "a": "Menyampaikan dialog antar tokoh"
+    },
+    {
+      "q": "Kata yang menunjukkan keterangan tempat atau waktu disebut...",
+      "options": [
+        "Verba",
+        "Adverbia",
+        "Nomina"
+      ],
+      "a": "Adverbia"
+    },
+    {
+      "q": "Penulisan gelar akademik yang benar adalah...",
+      "options": [
+        "S.E.",
+        "SE.",
+        "S.E"
+      ],
+      "a": "S.E."
+    },
+    {
+      "q": "Kata 'karena' dan 'sebab' termasuk konjungsi...",
+      "options": [
+        "Sebab-Akibat (Kausalitas)",
+        "Tujuan",
+        "Syarat"
+      ],
+      "a": "Sebab-Akibat (Kausalitas)"
+    },
+    {
+      "q": "Tujuan utama 'Pernyataan Umum' dalam Laporan Hasil Observasi adalah...",
+      "options": [
+        "Menyajikan opini pribadi",
+        "Memperkenalkan objek secara umum",
+        "Memberikan argumen kuat"
+      ],
+      "a": "Memperkenalkan objek secara umum"
+    },
+    {
+      "q": "Perbedaan mendasar antara Teks Eksposisi dan Teks Deskripsi adalah...",
+      "options": [
+        "Eksposisi bertujuan menjelaskan; Deskripsi bertujuan menggambarkan",
+        "Eksposisi menggunakan opini; Deskripsi menggunakan fakta",
+        "Eksposisi menggunakan kata teknis; Deskripsi menggunakan konjungsi"
+      ],
+      "a": "Eksposisi bertujuan menjelaskan; Deskripsi bertujuan menggambarkan"
+    },
+    {
+      "q": "Teks Eksposisi yang sering kita temui dalam artikel koran, jurnal, atau esai disebut...",
+      "options": [
+        "Teks Narasi",
+        "Teks Argumentasi",
+        "Teks Ilmiah Populer"
+      ],
+      "a": "Teks Ilmiah Populer"
+    },
+    {
+      "q": "Tokoh yang dikritik atau disindir dalam Teks Anekdot biasanya adalah...",
+      "options": [
+        "Tokoh fiktif biasa",
+        "Tokoh publik atau penting",
+        "Tokoh antagonis"
+      ],
+      "a": "Tokoh publik atau penting"
+    },
+    {
+      "q": "Frasa yang memiliki arti tidak sebenarnya (kiasan), seperti 'tangan kanan', disebut...",
+      "options": [
+        "Ungkapan",
+        "Peribahasa",
+        "Pepatah"
+      ],
+      "a": "Ungkapan"
+    },
     {
       q: "Kalimat 'Dia belajar sambil ngemil keripik' termasuk kalimat apa ya? (Belajarnya serius, ngemilnya juga serius 😆)",
       options: ["Kalimat berita", "Kalimat tanya", "Kalimat perintah"],
@@ -896,7 +1337,463 @@ export const data = {
   // =======================
   // PELAJARAN: BAHASA INGGRIS
   // =======================
-  inggris: [
+  inggris: {
+  "mata_pelajaran": "Bahasa Inggris (Campuran)",
+  "kelas": "1 SMK (Kelas 10)",
+  "jumlah_soal": 50,
+  "instruksi": "Jawablah pertanyaan berdasarkan pemahaman Anda terhadap bahasa Inggris dan konteks yang diberikan.",
+  "daftar_soal": [
+    {
+      "q": "The main purpose of a **Descriptive Text** adalah...",
+      "options": [
+        "To entertain the reader with a story.",
+        "To tell how to do something.",
+        "To describe a particular person, place, or thing."
+      ],
+      "a": "To describe a particular person, place, or thing."
+    },
+    {
+      "q": "Generic Structure dari **Recount Text** adalah Orientation, Events, dan...",
+      "options": [
+        "Complication",
+        "Reorientation",
+        "Resolution"
+      ],
+      "a": "Reorientation"
+    },
+    {
+      "q": "The **Procedure Text** aims to tell the reader...",
+      "options": [
+        "About a past experience.",
+        "How to make or do something in sequence.",
+        "About famous people."
+      ],
+      "a": "How to make or do something in sequence."
+    },
+    {
+      "q": "Kata kerja (*verb*) yang umum digunakan dalam **Narrative Text** adalah...",
+      "options": [
+        "Action Verbs in Present Tense",
+        "Action Verbs in Past Tense",
+        "Linking Verbs in Future Tense"
+      ],
+      "a": "Action Verbs in Past Tense"
+    },
+    {
+      "q": "Kalimat yang menggunakan **Simple Present Tense** adalah...",
+      "options": [
+        "She visited her grandparents yesterday.",
+        "They are playing football right now.",
+        "He goes to school every morning."
+      ],
+      "a": "He goes to school every morning."
+    },
+    {
+      "q": "The correct form of the verb for **Simple Past Tense** is...",
+      "options": [
+        "Verb 1 (V1)",
+        "Verb 2 (V2)",
+        "Verb 3 (V3)"
+      ],
+      "a": "Verb 2 (V2)"
+    },
+    {
+      "q": "We use **Simple Future Tense** (Will/Be Going To) when we want to express...",
+      "options": [
+        "Habits or facts.",
+        "Actions that happened in the past.",
+        "Plans or predictions for the future."
+      ],
+      "a": "Plans or predictions for the future."
+    },
+    {
+      "q": "Dalam Descriptive Text, 'a large green field with tall trees' adalah contoh dari...",
+      "options": [
+        "Identification",
+        "Description",
+        "Conclusion"
+      ],
+      "a": "Description"
+    },
+    {
+      "q": "Kata keterangan waktu (*time adverb*) yang paling cocok untuk **Recount Text** adalah...",
+      "options": [
+        "Now, tomorrow, soon",
+        "Yesterday, last week, two years ago",
+        "Always, usually, often"
+      ],
+      "a": "Yesterday, last week, two years ago"
+    },
+    {
+      "q": "The part of **Procedure Text** that states the purpose and usually names the food/object is the...",
+      "options": [
+        "Steps/Methods",
+        "Goal/Aim",
+        "Ingredients/Materials"
+      ],
+      "a": "Goal/Aim"
+    },
+    {
+      "q": "Fungsi dari **Complication** dalam Narrative Text adalah...",
+      "options": [
+        "To introduce the characters and setting.",
+        "To show the peak or turning point of the problem.",
+        "To give the happy ending."
+      ],
+      "a": "To show the peak or turning point of the problem."
+    },
+    {
+      "q": "Kalimat negatif untuk 'She drinks coffee' dalam Simple Present Tense adalah...",
+      "options": [
+        "She not drinks coffee.",
+        "She doesn't drink coffee.",
+        "She didn't drink coffee."
+      ],
+      "a": "She doesn't drink coffee."
+    },
+    {
+      "q": "Jika kita ingin mengungkapkan kebiasaan atau rutinitas, kita menggunakan tenses...",
+      "options": [
+        "Present Continuous Tense",
+        "Simple Past Tense",
+        "Simple Present Tense"
+      ],
+      "a": "Simple Present Tense"
+    },
+    {
+      "q": "The word 'beautiful' is an example of...",
+      "options": [
+        "Verb (Kata Kerja)",
+        "Adjective (Kata Sifat)",
+        "Adverb (Kata Keterangan)"
+      ],
+      "a": "Adjective (Kata Sifat)"
+    },
+    {
+      "q": "What kind of text would you use to tell your vacation story last year?",
+      "options": [
+        "Descriptive Text",
+        "Recount Text",
+        "Procedure Text"
+      ],
+      "a": "Recount Text"
+    },
+    {
+      "q": "Kata penghubung (*conjunction*) yang sering muncul dalam *Procedure Text* adalah...",
+      "options": [
+        "Finally, then, after that",
+        "But, however, although",
+        "Because, since, so"
+      ],
+      "a": "Finally, then, after that"
+    },
+    {
+      "q": "The Resolution in a **Narrative Text** berfungsi untuk...",
+      "options": [
+        "Menceritakan akhir cerita dan solusi masalah.",
+        "Menggambarkan karakter utama.",
+        "Menyajikan alat dan bahan."
+      ],
+      "a": "Menceritakan akhir cerita dan solusi masalah."
+    },
+    {
+      "q": "My father **(buy)** a new car last month. Kata kerja yang tepat untuk mengisi Simple Past Tense adalah...",
+      "options": [
+        "buy",
+        "bought",
+        "buying"
+      ],
+      "a": "bought"
+    },
+    {
+      "q": "Jika saya membuat janji, 'I **will** meet you tomorrow' menggunakan...",
+      "options": [
+        "Simple Past Tense",
+        "Simple Future Tense",
+        "Present Continuous Tense"
+      ],
+      "a": "Simple Future Tense"
+    },
+    {
+      "q": "Pronoun (kata ganti) yang digunakan sebagai **Objek** adalah...",
+      "options": [
+        "He",
+        "Him",
+        "His"
+      ],
+      "a": "Him"
+    },
+    {
+      "q": "Teks yang berfokus pada penampilan fisik seseorang (*physical appearance*) dan sifat (*character*) adalah...",
+      "options": [
+        "Narrative Text",
+        "Descriptive Text",
+        "Recount Text"
+      ],
+      "a": "Descriptive Text"
+    },
+    {
+      "q": "The Social Function dari **Narrative Text** adalah...",
+      "options": [
+        "To report an event.",
+        "To entertain the readers.",
+        "To give instructions."
+      ],
+      "a": "To entertain the readers."
+    },
+    {
+      "q": "Passive form dari 'Toni bought a book' adalah...",
+      "options": [
+        "A book is bought by Toni.",
+        "A book was bought by Toni.",
+        "A book will be bought by Toni."
+      ],
+      "a": "A book was bought by Toni."
+    },
+    {
+      "q": "We use **Present Continuous Tense** when the action...",
+      "options": [
+        "Happens every day.",
+        "Is happening right now.",
+        "Will happen soon."
+      ],
+      "a": "Is happening right now."
+    },
+    {
+      "q": "The materials or ingredients used in a procedure are often listed under the heading...",
+      "options": [
+        "Steps",
+        "Goal",
+        "Tools/Ingredients"
+      ],
+      "a": "Tools/Ingredients"
+    },
+    {
+      "q": "Untuk mendeskripsikan tempat tinggal Anda, Anda akan fokus pada bagian...",
+      "options": [
+        "Orientation",
+        "Identification",
+        "Description"
+      ],
+      "a": "Description"
+    },
+    {
+      "q": "Kalimat yang menggunakan **Adverb of Frequency** adalah...",
+      "options": [
+        "I went there quickly.",
+        "She rarely eats fast food.",
+        "They drove home yesterday."
+      ],
+      "a": "She rarely eats fast food."
+    },
+    {
+      "q": "Dalam percakapan, untuk menawarkan bantuan kita bisa menggunakan ekspresi...",
+      "options": [
+        "I couldn't help you.",
+        "Can I help you?",
+        "Do you mind if I help?"
+      ],
+      "a": "Can I help you?"
+    },
+    {
+      "q": "Which text genre usually starts with 'Once upon a time...'?",
+      "options": [
+        "Recount Text",
+        "Descriptive Text",
+        "Narrative Text"
+      ],
+      "a": "Narrative Text"
+    },
+    {
+      "q": "The main focus of the **Identification** part of a Descriptive Text is...",
+      "options": [
+        "To introduce the object generally.",
+        "To give details about the object's color and size.",
+        "To conclude the description."
+      ],
+      "a": "To introduce the object generally."
+    },
+    {
+      "q": "The Simple Past Tense dari kata 'go' adalah...",
+      "options": [
+        "goed",
+        "went",
+        "gone"
+      ],
+      "a": "went"
+    },
+    {
+      "q": "What is the function of **Announcement Text**?",
+      "options": [
+        "To entertain people.",
+        "To inform people about an event or news.",
+        "To describe a product."
+      ],
+      "a": "To inform people about an event or news."
+    },
+    {
+      "q": "Dalam Recount Text, **Orientation** berfungsi untuk...",
+      "options": [
+        "Menyajikan solusi masalah.",
+        "Memperkenalkan siapa, di mana, dan kapan kejadian.",
+        "Memberikan langkah-langkah."
+      ],
+      "a": "Memperkenalkan siapa, di mana, dan kapan kejadian."
+    },
+    {
+      "q": "Tanda-tanda (*clues*) yang paling jelas menunjukkan Simple Past Tense dalam kalimat adalah...",
+      "options": [
+        "Every day, next week",
+        "Always, tomorrow",
+        "Last night, ago, yesterday"
+      ],
+      "a": "Last night, ago, yesterday"
+    },
+    {
+      "q": "Kalimat yang menunjukkan **Suggestion** (Saran) adalah...",
+      "options": [
+        "What about buying a new laptop?",
+        "I will buy a new laptop.",
+        "I bought a new laptop."
+      ],
+      "a": "What about buying a new laptop?"
+    },
+    {
+      "q": "The word 'quickly' is an example of...",
+      "options": [
+        "Adjective (Kata Sifat)",
+        "Adverb (Kata Keterangan)",
+        "Noun (Kata Benda)"
+      ],
+      "a": "Adverb (Kata Keterangan)"
+    },
+    {
+      "q": "Struktur *Procedure Text* yang mengandung kalimat perintah (*imperative sentences*) adalah...",
+      "options": [
+        "Goal",
+        "Materials",
+        "Steps"
+      ],
+      "a": "Steps"
+    },
+    {
+      "q": "What is the Passive Voice of 'The teacher teaches English'?",
+      "options": [
+        "English is taught by the teacher.",
+        "English was taught by the teacher.",
+        "English is being taught by the teacher."
+      ],
+      "a": "English is taught by the teacher."
+    },
+    {
+      "q": "Kata kerja (*verb*) dalam kalimat 'The sun rises in the east' adalah contoh dari...",
+      "options": [
+        "General truth/fact",
+        "Past event",
+        "Future plan"
+      ],
+      "a": "General truth/fact"
+    },
+    {
+      "q": "Untuk memberikan pujian (*Compliment*) pada teman yang sukses, Anda bisa mengatakan...",
+      "options": [
+        "I'm sorry to hear that.",
+        "You look terrible.",
+        "That's great! Congratulations!"
+      ],
+      "a": "That's great! Congratulations!"
+    },
+    {
+      "q": "Jika kita ingin mengungkapkan larangan (*Prohibition*), kita bisa menggunakan...",
+      "options": [
+        "You must go now.",
+        "You must not park here.",
+        "You may park here."
+      ],
+      "a": "You must not park here."
+    },
+    {
+      "q": "The moral value (*Pesan Moral*) dari *Narrative Text* biasanya ditemukan di bagian...",
+      "options": [
+        "Orientation",
+        "Before the complication",
+        "Resolution or implied throughout the story"
+      ],
+      "a": "Resolution or implied throughout the story"
+    },
+    {
+      "q": "Bagian 'Events' dalam Recount Text berisi...",
+      "options": [
+        "Pendapat penulis.",
+        "Rangkaian kejadian yang dialami secara kronologis.",
+        "Deskripsi fisik tokoh."
+      ],
+      "a": "Rangkaian kejadian yang dialami secara kronologis."
+    },
+    {
+      "q": "Pronoun yang digunakan untuk menggantikan kata benda jamak adalah...",
+      "options": [
+        "It",
+        "She",
+        "They"
+      ],
+      "a": "They"
+    },
+    {
+      "q": "The adjective form of the word 'danger' is...",
+      "options": [
+        "Dangerous",
+        "Dangerously",
+        "Endanger"
+      ],
+      "a": "Dangerous"
+    },
+    {
+      "q": "Kalimat interogatif untuk 'He is going to study' adalah...",
+      "options": [
+        "Does he go to study?",
+        "Is he going to study?",
+        "Did he go to study?"
+      ],
+      "a": "Is he going to study?"
+    },
+    {
+      "q": "Kata 'seating is limited' (tempat duduk terbatas) paling sering ditemukan dalam jenis teks...",
+      "options": [
+        "Descriptive Text",
+        "Procedure Text",
+        "Announcement Text"
+      ],
+      "a": "Announcement Text"
+    },
+    {
+      "q": "The Passive Voice of Simple Present Tense menggunakan rumus...",
+      "options": [
+        "Subject + V2",
+        "Subject + is/am/are + V3",
+        "Subject + was/were + V3"
+      ],
+      "a": "Subject + is/am/are + V3"
+    },
+    {
+      "q": "Jika kita ingin menjelaskan proses evolusi komputer, kita akan menggunakan teks jenis...",
+      "options": [
+        "Narrative Text",
+        "Explanation Text",
+        "Recount Text"
+      ],
+      "a": "Explanation Text"
+    },
+    {
+      "q": "Kata kerja (*verb*) yang tidak beraturan (*irregular verb*) dari 'see' adalah...",
+      "options": [
+        "seeed, seeed",
+        "saw, seen",
+        "sees, seeing"
+      ],
+      "a": "saw, seen"
+    },
+
     {
       q: "‘Good morning!’ artinya ... (bukan kode buat minta sarapan 😄)",
       options: ["Selamat malam", "Selamat pagi", "Selamat siang"],
@@ -999,6 +1896,7 @@ export const data = {
     }
   ]
 };
+
 
 
 
