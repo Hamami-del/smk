@@ -418,10 +418,41 @@ salinBtn.onclick = () => {
   window.showUdin = showReaction;
   showReaction('neutral', 0);
 })();
+	const salinBtn = document.getElementById('salinBtn');
+const nomorDana = document.getElementById('nomorDana');
+const pesanSalin = document.getElementById('pesanSalin');
+
+salinBtn.addEventListener('click', () => {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(nomorDana.textContent)
+      .then(() => {
+        pesanSalin.style.display = 'block';
+        setTimeout(() => pesanSalin.style.display = 'none', 2000);
+      })
+      .catch(() => {
+        alert('Gagal menyalin, silakan salin manual: ' + nomorDana.textContent);
+      });
+  } else {
+    // fallback untuk browser lama
+    const range = document.createRange();
+    range.selectNode(nomorDana);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    try {
+      document.execCommand('copy');
+      alert('Nomor berhasil disalin!');
+    } catch {
+      alert('Silakan salin manual: ' + nomorDana.textContent);
+    }
+    window.getSelection().removeAllRanges();
+  }
+});
+
 </script>
 
 </body>
 </html>
+
 
 
 
