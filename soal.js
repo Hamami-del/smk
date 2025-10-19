@@ -8,7 +8,7 @@ export const data = {
   // =======================
   // PELAJARAN: AGAMA
   // =======================
-  Agama: [
+  agama: [
     {
       q: "Rukun Islam yang pertama itu bukan shalat ya, tapi syahadat. Nah, rukun Islam pertama adalah ...",
       options: ["Shalat", "Syahadat", "Zakat"],
@@ -114,7 +114,7 @@ export const data = {
   // =======================
   // PELAJARAN: BAHASA INDONESIA
   // =======================
-  Indonesia: [
+  indonesia: [
     {
       q: "Kalimat 'Dia belajar sambil ngemil keripik' termasuk kalimat apa ya? (Belajarnya serius, ngemilnya juga serius 😆)",
       options: ["Kalimat berita", "Kalimat tanya", "Kalimat perintah"],
@@ -639,4 +639,5 @@ export const data = {
     }
   ]
 };
+
 
