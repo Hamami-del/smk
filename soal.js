@@ -1,6 +1,6 @@
 // =====================================================
 // SOAL KUIS SMK • Versi Santai Edukatif & Sopan
-// By Hamami x GuruGPT 😄
+// By Hamami 
 // =====================================================
 
 export const data = {
@@ -2335,7 +2335,8 @@ export const data = {
       options: ["Kerja bagus!", "Selamat datang!", "Jangan menyerah!"],
       a: "Kerja bagus!" // jawaban: A
     },
- 
+ ],
+
 
 
 
