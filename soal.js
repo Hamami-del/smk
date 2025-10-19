@@ -2334,9 +2334,8 @@ export const data = {
       q: "‘Good job!’ berarti ... (biasanya dibilang guru kalau kamu jawab benar 😄)",
       options: ["Kerja bagus!", "Selamat datang!", "Jangan menyerah!"],
       a: "Kerja bagus!" // jawaban: A
-    }
-  ],
-};
+    },
+ 
 
 
 
