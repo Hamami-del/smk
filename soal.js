@@ -2330,8 +2330,9 @@ export const data = {
       options: ["Bersihkan papan tulis", "Buka jendela", "Tutup pintu"],
       a: "Bersihkan papan tulis" // jawaban: A
     }
-        ]
+        ],
           };
+
 
 
 
