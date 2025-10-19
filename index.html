@@ -101,7 +101,18 @@ input[type="text"], select {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.3s ease;
-  z-index: 9999; /* supaya di atas elemen lain */
+  z-index: 9999;
+  animation: goyangHalus 4s infinite ease-in-out;
+}
+
+/* animasi lembut */
+@keyframes goyangHalus {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 /* efek hover */
@@ -300,6 +311,7 @@ input[type="text"], select {
 
 </body>
 </html>
+
 
 
 
