@@ -1778,12 +1778,7 @@ export const data = {
   // =======================
   // PELAJARAN: BAHASA INGGRIS
   // =======================
-  inggris: {
-  "mata_pelajaran": "Bahasa Inggris (Campuran)",
-  "kelas": "1 SMK (Kelas 10)",
-  "jumlah_soal": 50,
-  "instruksi": "Jawablah pertanyaan berdasarkan pemahaman Anda terhadap bahasa Inggris dan konteks yang diberikan.",
-  "daftar_soal": [
+  inggris:  [
     {
       "q": "The main purpose of a **Descriptive Text** adalah...",
       "options": [
@@ -2338,3 +2333,4 @@ export const data = {
   ],
 },
 };
+
