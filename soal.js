@@ -1566,7 +1566,7 @@ export const data = {
         "Ctrl + Enter",
         "Alt + Enter"
       ],
-      "a": "Alt + Enter
+      "a": "Alt + Enter"
      },
     {
       q: "CPU itu bukan nama band ya 😄. CPU singkatan dari ...",
@@ -2337,6 +2337,7 @@ export const data = {
     }
   ]
 };
+
 
 
 
