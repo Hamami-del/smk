@@ -2336,7 +2336,8 @@ export const data = {
       a: "Kerja bagus!" // jawaban: A
     },
 ],
-};
+
+
 
 
 
