@@ -1124,8 +1124,8 @@ export const data = {
     },
     {
       q: "Jika panjang 8 cm dan lebar 4 cm, maka luas persegi panjang adalah ...",
-      options: ["32 cm²", "12 cm²", "24 cm²"],
-      a: "32 cm²" // jawaban: A
+      options: ["32 cm^2", "12 cm^2", "24 cm^2"],
+      a: "32 cm^2" // jawaban: A
     },
     {
       q: "Bilangan ganjil setelah 15 adalah ...",
@@ -2337,6 +2337,7 @@ export const data = {
     }
   ]
 };
+
 
 
 
