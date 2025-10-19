@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuis Pintar | By Hamami</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== Background Animasi ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(-45deg,#ff9a9e,#fad0c4,#a1c4fd,#c2e9fb);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  position: relative;
+  overflow-x: hidden;
+  z-index: 0;
+}
+@keyframes gradientBG {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+/* ===== Bintang ===== */
+#stars, #particles { position: fixed; width:100%; height:100%; top:0; left:0; pointer-events:none; z-index:0; }
+.star, .particle { border-radius:50%; position:absolute; }
+.star { background:white; width:2px; height:2px; opacity:0.8; animation:twinkle 3s infinite; }
+@keyframes twinkle { 0%,100%{opacity:0.2;} 50%{opacity:1;} }
+.particle { background: rgba(255,255,255,0.6); width:4px; height:4px; animation: floatUp linear infinite; }
+@keyframes floatUp {0%{transform:translateY(100vh);}100%{transform:translateY(-10vh);}}
+
+/* ===== Container ===== */
+.container {
+  position: relative;
+  z-index: 1001;
+  max-width:600px; width:100%; background:#fff; padding:30px;
+  border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1); margin-bottom:20px;
+}
+h2 { color:#333; border-bottom:2px solid #eee; padding-bottom:10px; margin-bottom:20px; }
+input[type="text"], select {
+  width:100%; padding:10px; margin:10px 0 20px 0;
+  border:1px solid #ccc; border-radius:5px; box-sizing:border-box;
+}
+.button-group button { 
+  padding:10px 15px; margin:5px; cursor:pointer; border-radius:5px;
+  border:1px solid #007bff; background:#fff; color:#007bff; font-size:16px;
+  transition: background-color 0.3s,color 0.3s;
+}
+.button-group button:hover:not(:disabled) { background:#007bff; color:#fff; }
+#kuis-container button {
+  display:block; width:100%; margin:10px 0; padding:12px;
+  background-color:#007bff; color:white; border:none; border-radius:6px;
+}
+#kuis-container button:disabled { opacity:0.7; }
+#skor,#hasil-feedback { font-weight:bold; margin-top:20px; padding:10px; border-radius:5px; }
+#hasil-feedback.correct { background-color:#d4edda; color:#155724; }
+#hasil-feedback.wrong { background-color:#f8d7da; color:#721c24; }
+
+/* Tombol Mulai */
+#mulaiBtn { background-color:#28a745; color:white; border:none; width:100%; padding:12px; margin-top:10px; border-radius:6px; }
+#mulaiBtn:hover { background-color:#218838; }
+
+/* Popup Donasi */
+#popupDonasi { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6);
+  justify-content:center; align-items:center; z-index:1003; }
+#popupDonasi .popup-content { background:#fff; padding:30px; border-radius:10px; max-width:400px; text-align:center; box-shadow:0 5px 15px rgba(0,0,0,0.3); animation:fadeIn 0.3s; }
+#popupDonasi h3 { color:#007bff; margin-top:0; }
+#popupDonasi button { margin-top:15px; padding:10px 20px; background-color:#dc3545; color:white; border:none; border-radius:5px; cursor:pointer; }
+@keyframes fadeIn { from{opacity:0; transform:translateY(-20px);} to{opacity:1; transform:translateY(0);} }
+
+/* Copyright */
+#copyright {
+  position: fixed;
+  left:50%;
+  transform:translateX(-50%);
+  top:50%;
+  text-align:center;
+  z-index:1002;
+  font-weight:bold;
+  font-size:16px;
+  color:#333;
+}
+
+/* ===== Tombol Donasi Melayang Aman di Bawah Layar ===== */
+#donasiBtn {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+
+  background-color: #ffd700;
+  color: #111;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 80%;
+  height: auto;
+  display: inline-block;
+  opacity: 0;
+  animation: fadeInBtn 1.2s ease forwards, float 3s ease-in-out infinite;
+}
+
+/* Fade-in & floating animation */
+@keyframes fadeInBtn {
+  from {opacity:0; transform: translate(-50%, 20px);}
+  to {opacity:1; transform: translate(-50%, 0);}
+}
+@keyframes float {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, -6px); }
+}
+
+/* Hover efek */
+#donasiBtn:hover {
+  background-color: #ffcc33;
+  transform: translateX(-50%) scale(1.05);
+}
+
+/* Responsif */
+@media (max-height: 500px) {
+  #donasiBtn {
+    bottom: 8px;
+    padding: 10px 20px;
+  }
+}
+
+/* ===== Si Udin styling & reaksi ===== */
+#udin { display:flex; justify-content:center; margin: 6px 0 12px 0; }
+#udin svg { transition: transform 0.25s ease; }
+
+#udin.happy svg { transform: translateY(-6px) scale(1.03); }
+#udin.happy #blushL, #udin.happy #blushR { opacity:1; transition: opacity 0.25s; }
+#udin.sad svg { transform: translateY(2px) scale(0.99); }
+#udin.sad #tears { opacity:1; transition: opacity 0.2s; }
+
+@keyframes tearDrop {
+  0% { transform: translateY(0); opacity:1; }
+  100% { transform: translateY(16px); opacity:0; }
+}
+#udin.sad #tears path { animation: tearDrop 0.9s linear forwards; }
+
+@media (max-width:420px){
+  #udin svg { width:120px; height:120px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div id="nama-container">
+    <h2>Uji Pengetahuan dan Wawasanmu</h2>
+    <label for="namaPemain">Nama Kamu:</label>
+    <input type="text" id="namaPemain" placeholder="Masukkan nama..." />
+    
+    <label for="levelSelect">Pilih Mata Pelajaran:</label>
+    <select id="levelSelect">
+      <option value="agama">Agama</option>
+      <option value="indonesia">Bahasa Indonesia</option>
+      <option value="matematika">Matematika</option>
+	  <option value="informatika">Informatika</option>
+	   <option value="ppkn">PPKN</option>
+	   <option value="inggris">Inggris</option>
+	   	   
+    </select>
+    
+    <button id="mulaiBtn">Mulai Kuis</button>
+    <p id="copyright">Copyright By Hamami<br>Kp Karang Kaletak RT009 Ds. Samparwadi Kec. Tirtayasa</p>
+  </div>
+
+  <div id="kuis-container" style="display:none;">
+    <div id="udin" class="neutral" aria-hidden="true">
+      <svg id="udinSVG" viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="90" r="50" fill="#FFD9B3" />
+        <path d="M50 70 C60 45,140 45,150 70 L150 80 C140 55,60 55,50 80 Z" fill="#222"/>
+        <g id="eyes">
+          <circle id="eyeL" cx="80" cy="85" r="6" fill="#111"/>
+          <circle id="eyeR" cx="120" cy="85" r="6" fill="#111"/>
+        </g>
+        <path id="mouth" d="M80 110 Q100 120 120 110" stroke="#111" stroke-width="4" fill="transparent" stroke-linecap="round" />
+        <g id="tears" opacity="0">
+          <path d="M120 96 q2 8 -4 12 q-6 -4 -4 -12 z" fill="#74C0FF"/>
+          <path d="M80 96 q2 8 -4 12 q-6 -4 -4 -12 z" fill="#74C0FF" transform="translate(-4,0)"/>
+        </g>
+        <circle id="blushL" cx="68" cy="100" r="6" fill="#ffb6c1" opacity="0"/>
+        <circle id="blushR" cx="132" cy="100" r="6" fill="#ffb6c1" opacity="0"/>
+      </svg>
+    </div>
+<p id="namaPemainTampil" style="font-weight:600; text-align:center; margin:0; color:#333;"></p>
+
+    <h2 id="pertanyaan"></h2>
+    <div id="pilihan-container" class="button-group"></div>
+    <p id="hasil-feedback"></p>
+    <p id="skor">Skor: 0</p>
+    <button id="selesaiBtn">❌ Selesai Kuis</button>
+    <button id="donasiBtn">💖 Donasi/Dukung Kami</button>
+  </div>
+</div>
+
+<div id="popupDonasi">
+  <div class="popup-content">
+    <h3>Terima Kasih Banyak! 🙏</h3>
+    <p>Dukungan Anda sangat berarti untuk pengembangan kuis ini.<br>DANA<br>085545260449</p>
+    <button id="tutupPopup">Tutup</button>
+  </div>
+</div>
+
+<audio id="audioCorrect" src="correct.mp3" preload="auto"></audio>
+<audio id="audioWrong" src="wrong.mp3" preload="auto"></audio>
+
+<div id="stars"></div>
+<div id="particles"></div>
+
+<script src="soal.js" type="module"></script>
+<script src="main.js" type="module"></script>
+
+<script>
+(function(){
+  const udin = document.getElementById('udin');
+  const mouth = document.getElementById('mouth');
+  const tears = document.getElementById('tears');
+  const blushL = document.getElementById('blushL');
+  const blushR = document.getElementById('blushR');
+  const audioCorrect = document.getElementById('audioCorrect');
+  const audioWrong = document.getElementById('audioWrong');
+
+  const mouthNeutral = "M80 110 Q100 120 120 110";
+  const mouthHappy   = "M80 106 Q100 132 120 106";
+  const mouthSad     = "M80 118 Q100 98 120 118";
+
+  function showReaction(type, duration = 1800) {
+    udin.classList.remove('happy','sad','neutral');
+    if(type === 'happy') {
+      udin.classList.add('happy');
+      mouth.setAttribute('d', mouthHappy);
+      blushL.style.opacity = '1';
+      blushR.style.opacity = '1';
+      tears.style.opacity = '0';
+    } else if(type === 'sad') {
+      udin.classList.add('sad');
+      mouth.setAttribute('d', mouthSad);
+      blushL.style.opacity = '0';
+      blushR.style.opacity = '0';
+      tears.style.opacity = '1';
+      tears.querySelectorAll('path').forEach(p => {
+        p.style.animation = 'none'; p.offsetHeight; p.style.animation = '';
+      });
+    } else {
+      udin.classList.add('neutral');
+      mouth.setAttribute('d', mouthNeutral);
+      blushL.style.opacity = '0';
+      blushR.style.opacity = '0';
+      tears.style.opacity = '0';
+    }
+
+    clearTimeout(udin._reactTimeout);
+    udin._reactTimeout = setTimeout(() => {
+      udin.classList.remove('happy','sad');
+      udin.classList.add('neutral');
+      mouth.setAttribute('d', mouthNeutral);
+      blushL.style.opacity = '0';
+      blushR.style.opacity = '0';
+      tears.style.opacity = '0';
+    }, duration);
+  }
+
+  if(audioCorrect) audioCorrect.addEventListener('play', () => showReaction('happy'));
+  if(audioWrong) audioWrong.addEventListener('play', () => showReaction('sad'));
+
+  document.addEventListener('answerResult', (e) => {
+    const correct = e?.detail?.correct;
+    if(correct === true) showReaction('happy');
+    else if(correct === false) showReaction('sad');
+  });
+
+  window.showUdin = showReaction;
+  showReaction('neutral', 0);
+})();
+</script>
+
+</body>
+</html>
+
+
+
+
+
