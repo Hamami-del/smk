@@ -228,13 +228,124 @@ input[type="text"], select {
   </div>
 </div>
 
-<div id="popupDonasi">
+<!-- Popup Donasi -->
+<div id="popupDonasi" class="popup">
   <div class="popup-content">
-    <h3>Terima Kasih Banyak! 🙏</h3>
-    <p>Dukungan Anda sangat berarti untuk pengembangan kuis ini.<br>DANA<br>081-949494-251</p>
+    <h2>Terima kasih atas dukungannya! 🥰</h2>
+    <p>Jika kamu ingin berdonasi, silakan kirim ke nomor DANA berikut:</p>
+    <div class="nomor-dana">
+      <span id="nomorDana">0812-3456-7890</span>
+      <button id="salinBtn">📋 Salin Nomor</button>
+    </div>
+    <p id="pesanSalin" style="display:none; color:green; font-weight:bold;">✅ Nomor berhasil disalin!</p>
     <button id="tutupPopup">Tutup</button>
   </div>
 </div>
+
+<style>
+/* ===== Tombol ===== */
+#donasiBtn {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#donasiBtn:hover { background-color: #fb923c; }
+
+/* ===== Popup ===== */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  animation: fadeIn 0.4s;
+}
+.popup-content {
+  background: white;
+  border-radius: 20px;
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 25px;
+  text-align: center;
+  animation: slideDown 0.4s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.nomor-dana {
+  margin: 15px 0;
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#salinBtn {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#salinBtn:hover { background: #34d399; }
+#tutupPopup {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#tutupPopup:hover { background: #f87171; }
+
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+@keyframes slideDown { from {transform: translateY(-20px);} to {transform: translateY(0);} }
+</style>
+
+<script>
+// ====== Elemen ======
+const donasiBtn = document.getElementById('donasiBtn');
+const popupDonasi = document.getElementById('popupDonasi');
+const tutupPopup = document.getElementById('tutupPopup');
+const salinBtn = document.getElementById('salinBtn');
+const nomorDana = document.getElementById('nomorDana');
+const pesanSalin = document.getElementById('pesanSalin');
+
+// ====== Buka Popup ======
+donasiBtn.onclick = () => {
+  popupDonasi.style.display = 'block';
+};
+
+// ====== Tutup Popup ======
+tutupPopup.onclick = () => {
+  popupDonasi.style.display = 'none';
+  pesanSalin.style.display = 'none';
+};
+
+// ====== Klik di luar popup untuk tutup ======
+window.onclick = (e) => {
+  if (e.target == popupDonasi) {
+    popupDonasi.style.display = 'none';
+    pesanSalin.style.display = 'none';
+  }
+};
+
+// ====== Fitur Salin Nomor ======
+salinBtn.onclick = () => {
+  navigator.clipboard.writeText(nomorDana.textContent)
+    .then(() => {
+      pesanSalin.style.display = 'block';
+      setTimeout(() => pesanSalin.style.display = 'none', 2000);
+    });
+};
 
 <audio id="audioCorrect" src="correct.mp3" preload="auto"></audio>
 <audio id="audioWrong" src="wrong.mp3" preload="auto"></audio>
@@ -311,6 +422,7 @@ input[type="text"], select {
 
 </body>
 </html>
+
 
 
 
