@@ -2329,9 +2329,17 @@ export const data = {
       q: "‘Clean the board’ artinya ... (biasanya tugas siswa paling disayang guru 😄)",
       options: ["Bersihkan papan tulis", "Buka jendela", "Tutup pintu"],
       a: "Bersihkan papan tulis" // jawaban: A
-    }
-        ],
-          }
+    },
+    {
+      q: "‘Good job!’ berarti ... (biasanya dibilang guru kalau kamu jawab benar 😄)",
+      options: ["Kerja bagus!", "Selamat datang!", "Jangan menyerah!"],
+      a: "Kerja bagus!" // jawaban: A
+    }
+  ],
+},
+};
+        
+
 
 
 
