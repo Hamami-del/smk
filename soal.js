@@ -325,7 +325,367 @@ export const data = {
   // =======================
   // PELAJARAN: INFORMATIKA
   // =======================
-  informatika: [
+  informatika:  [
+    {
+      "q": "Proses memecah masalah yang kompleks menjadi bagian-bagian kecil agar lebih mudah ditangani disebut...",
+      "options": [
+        "Abstraksi",
+        "Dekomposisi",
+        "Pengenalan Pola"
+      ],
+      "a": "Dekomposisi"
+    },
+    {
+      "q": "Kemampuan untuk mengidentifikasi kesamaan atau ciri-ciri yang berulang dalam masalah yang berbeda disebut...",
+      "options": [
+        "Algoritma",
+        "Dekomposisi",
+        "Pengenalan Pola"
+      ],
+      "a": "Pengenalan Pola"
+    },
+    {
+      "q": "Urutan langkah-langkah yang logis dan sistematis untuk menyelesaikan suatu masalah disebut...",
+      "options": [
+        "Struktur Data",
+        "Algoritma",
+        "Flowchart"
+      ],
+      "a": "Algoritma"
+    },
+    {
+      "q": "Perangkat utama dalam komputer yang berfungsi sebagai 'otak' yang mengeksekusi instruksi program adalah...",
+      "options": [
+        "Random Access Memory (RAM)",
+        "Central Processing Unit (CPU)",
+        "Hard Disk Drive (HDD)"
+      ],
+      "a": "Central Processing Unit (CPU)"
+    },
+    {
+      "q": "Jenis memori yang isinya akan hilang ketika listrik dimatikan (bersifat volatile) adalah...",
+      "options": [
+        "Read-Only Memory (ROM)",
+        "Hard Disk Drive (HDD)",
+        "Random Access Memory (RAM)"
+      ],
+      "a": "Random Access Memory (RAM)"
+    },
+    {
+      "q": "Di bawah ini, yang merupakan contoh perangkat lunak Sistem Operasi adalah...",
+      "options": [
+        "Microsoft Word",
+        "Microsoft Windows",
+        "Google Chrome"
+      ],
+      "a": "Microsoft Windows"
+    },
+    {
+      "q": "Perangkat keras yang berfungsi untuk mencetak hasil pemrosesan komputer ke media kertas disebut...",
+      "options": [
+        "Monitor",
+        "Scanner",
+        "Printer"
+      ],
+      "a": "Printer"
+    },
+    {
+      "q": "Satuan data terkecil dalam sistem komputer yang hanya terdiri dari angka 0 atau 1 disebut...",
+      "options": [
+        "Byte",
+        "Bit",
+        "Nible"
+      ],
+      "a": "Bit"
+    },
+    {
+      "q": "Protokol standar yang digunakan untuk mentransfer halaman web di internet adalah...",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP"
+      ],
+      "a": "HTTP"
+    },
+    {
+      "q": "Jaringan komputer yang menghubungkan perangkat-perangkat dalam area geografis kecil, seperti dalam satu gedung atau kantor, adalah...",
+      "options": [
+        "WAN (Wide Area Network)",
+        "MAN (Metropolitan Area Network)",
+        "LAN (Local Area Network)"
+      ],
+      "a": "LAN (Local Area Network)"
+    },
+    {
+      "q": "Topologi jaringan di mana semua perangkat terhubung ke satu kabel utama (backbone) adalah topologi...",
+      "options": [
+        "Star",
+        "Ring",
+        "Bus"
+      ],
+      "a": "Bus"
+    },
+    {
+      "q": "Perangkat yang berfungsi meneruskan paket data antara dua atau lebih jaringan komputer yang berbeda adalah...",
+      "options": [
+        "Switch",
+        "Hub",
+        "Router"
+      ],
+      "a": "Router"
+    },
+    {
+      "q": "Alamat unik yang diberikan kepada setiap perangkat yang terhubung ke jaringan internet adalah...",
+      "options": [
+        "URL",
+        "IP Address",
+        "MAC Address"
+      ],
+      "a": "IP Address"
+    },
+    {
+      "q": "Sekumpulan fakta atau keterangan mentah yang belum diolah dan belum memiliki arti disebut...",
+      "options": [
+        "Informasi",
+        "Sistem",
+        "Data"
+      ],
+      "a": "Data"
+    },
+    {
+      "q": "Aplikasi perkantoran yang paling sesuai digunakan untuk mengolah data berupa angka dan membuat grafik adalah...",
+      "options": [
+        "Aplikasi Presentasi",
+        "Aplikasi Pengolah Kata",
+        "Aplikasi Pengolah Angka (Spreadsheet)"
+      ],
+      "a": "Aplikasi Pengolah Angka (Spreadsheet)"
+    },
+    {
+      "q": "Fungsi yang digunakan untuk menghitung nilai rata-rata dari sekelompok data di Microsoft Excel adalah...",
+      "options": [
+        "SUM",
+        "AVERAGE",
+        "COUNT"
+      ],
+      "a": "AVERAGE"
+    },
+    {
+      "q": "Representasi algoritma yang menggunakan simbol-simbol grafis untuk menggambarkan alur program disebut...",
+      "options": [
+        "Pseudocode",
+        "Flowchart",
+        "Struktur Bahasa"
+      ],
+      "a": "Flowchart"
+    },
+    {
+      "q": "Simbol belah ketupat (diamond) dalam flowchart digunakan untuk menunjukkan...",
+      "options": [
+        "Proses perhitungan",
+        "Keputusan atau Percabangan",
+        "Input/Output data"
+      ],
+      "a": "Keputusan atau Percabangan"
+    },
+    {
+      "q": "Jenis struktur kontrol yang digunakan untuk mengeksekusi satu blok kode secara berulang disebut...",
+      "options": [
+        "Percabangan",
+        "Perulangan (Looping)",
+        "Sekuensial"
+      ],
+      "a": "Perulangan (Looping)"
+    },
+    {
+      "q": "Penyajian algoritma yang menggunakan bahasa deskriptif yang mirip bahasa Inggris atau Bahasa Indonesia disebut...",
+      "options": [
+        "Diagram",
+        "Pseudocode",
+        "Code Block"
+      ],
+      "a": "Pseudocode"
+    },
+    {
+      "q": "Tindakan melindungi data dan sistem komputer dari akses, penggunaan, modifikasi, atau perusakan yang tidak sah disebut...",
+      "options": [
+        "Enkripsi",
+        "Keamanan Siber",
+        "Digitalisasi"
+      ],
+      "a": "Keamanan Siber"
+    },
+    {
+      "q": "Salah satu dampak negatif TIK di bidang sosial adalah munculnya penyebaran berita bohong yang dikenal sebagai...",
+      "options": [
+        "Phishing",
+        "Malware",
+        "Hoaks"
+      ],
+      "a": "Hoaks"
+    },
+    {
+      "q": "Dalam berpikir komputasional, fokus pada hal yang penting dan mengabaikan detail yang kurang relevan disebut...",
+      "options": [
+        "Dekomposisi",
+        "Abstraksi",
+        "Algoritma"
+      ],
+      "a": "Abstraksi"
+    },
+    {
+      "q": "Bilangan biner adalah sistem bilangan yang hanya menggunakan dua simbol, yaitu...",
+      "options": [
+        "1 dan 2",
+        "0 dan 1",
+        "A dan B"
+      ],
+      "a": "0 dan 1"
+    },
+    {
+      "q": "Port yang umum digunakan untuk menghubungkan keyboard, mouse, dan flash drive ke komputer adalah...",
+      "options": [
+        "VGA Port",
+        "HDMI Port",
+        "USB Port"
+      ],
+      "a": "USB Port"
+    },
+    {
+      "q": "Perangkat lunak yang memungkinkan pengguna untuk menjelajahi internet dan menampilkan halaman web disebut...",
+      "options": [
+        "Sistem Operasi",
+        "Web Browser",
+        "Text Editor"
+      ],
+      "a": "Web Browser"
+    },
+    {
+      "q": "Apa kepanjangan dari TIK dalam konteks pelajaran Informatika?",
+      "options": [
+        "Teknik Informasi Komputer",
+        "Teknologi Informasi dan Komunikasi",
+        "Transfer Informasi dan Komputasi"
+      ],
+      "a": "Teknologi Informasi dan Komunikasi"
+    },
+    {
+      "q": "Pesan error yang muncul di Microsoft Excel ketika terjadi pembagian dengan angka nol adalah...",
+      "options": [
+        "#VALUE!",
+        "#DIV/0!",
+        "#NAME?"
+      ],
+      "a": "#DIV/0!"
+    },
+    {
+      "q": "Kombinasi tombol keyboard yang umum digunakan untuk menyimpan dokumen dalam banyak aplikasi adalah...",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + S",
+        "Ctrl + V"
+      ],
+      "a": "Ctrl + S"
+    },
+    {
+      "q": "Perangkat jaringan yang berfungsi untuk memperkuat dan meregenerasi sinyal dalam jaringan adalah...",
+      "options": [
+        "Hub",
+        "Repeater",
+        "Bridge"
+      ],
+      "a": "Repeater"
+    },
+    {
+      "q": "Koneksi internet yang memanfaatkan gelombang radio tanpa menggunakan kabel fisik disebut...",
+      "options": [
+        "Koneksi Fiber Optic",
+        "Koneksi Nirkabel (Wireless)",
+        "Koneksi Dial-up"
+      ],
+      "a": "Koneksi Nirkabel (Wireless)"
+    },
+    {
+      "q": "Nama domain yang menunjukkan bahwa suatu situs berasal dari organisasi non-profit atau nirlaba adalah...",
+      "options": [
+        ".com",
+        ".gov",
+        ".org"
+      ],
+      "a": ".org"
+    },
+    {
+      "q": "Langkah pertama yang harus dilakukan setelah mengidentifikasi masalah dalam Berpikir Komputasional adalah...",
+      "options": [
+        "Menulis kode program",
+        "Melakukan Dekomposisi",
+        "Menemukan pola"
+      ],
+      "a": "Melakukan Dekomposisi"
+    },
+    {
+      "q": "Sebuah program komputer yang dirancang untuk merusak atau mengambil alih sistem tanpa sepengetahuan pengguna disebut...",
+      "options": [
+        "Sistem Operasi",
+        "Malware",
+        "Firmware"
+      ],
+      "a": "Malware"
+    },
+    {
+      "q": "Dalam bahasa pemrograman, variabel adalah...",
+      "options": [
+        "Perintah untuk mengulang kode",
+        "Tempat untuk menyimpan nilai data",
+        "Simbol untuk membuat keputusan"
+      ],
+      "a": "Tempat untuk menyimpan nilai data"
+    },
+    {
+      "q": "Apa yang dimaksud dengan *syntax* dalam pemrograman?",
+      "options": [
+        "Hasil akhir dari program",
+        "Kumpulan aturan penulisan kode",
+        "Alur kerja program"
+      ],
+      "a": "Kumpulan aturan penulisan kode"
+    },
+    {
+      "q": "Komponen yang bertanggung jawab untuk memastikan semua komponen hardware dapat bekerja sama adalah...",
+      "options": [
+        "CPU",
+        "Power Supply",
+        "Motherboard"
+      ],
+      "a": "Motherboard"
+    },
+    {
+      "q": "Perangkat input yang berfungsi untuk memindahkan atau menunjuk objek di layar komputer adalah...",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "Monitor"
+      ],
+      "a": "Mouse"
+    },
+    {
+      "q": "Yang BUKAN termasuk perangkat lunak aplikasi perkantoran adalah...",
+      "options": [
+        "Microsoft Excel",
+        "Adobe Photoshop",
+        "Microsoft PowerPoint"
+      ],
+      "a": "Adobe Photoshop"
+    },
+    {
+      "q": "Untuk menambahkan baris baru dalam sel Microsoft Excel, kombinasi tombol yang digunakan adalah...",
+      "options": [
+        "Enter",
+        "Ctrl + Enter",
+        "Alt + Enter"
+      ],
+      "a": "Alt + Enter
+     },
     {
       q: "CPU itu bukan nama band ya 😄. CPU singkatan dari ...",
       options: ["Central Processing Unit", "Computer Power Unit", "Control Process Utility"],
@@ -639,5 +999,6 @@ export const data = {
     }
   ]
 };
+
 
 
